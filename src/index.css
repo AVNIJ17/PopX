@@ -1,0 +1,33 @@
+@import "tailwindcss";
+
+/* Adobe Clean — regular */
+@font-face {
+  font-family: "adobe-clean";
+  src: url("https://use.typekit.net/af/c0160f/00000000000000007735dac8/30/l?primer=f592e0a4b9356877842506ce344308576437e4f677d7c9b78ca2162e6cad991a&fvd=n4&v=3")
+    format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Adobe Clean — bold */
+@font-face {
+  font-family: "adobe-clean";
+  src: url("https://use.typekit.net/af/5c07ba/00000000000000007735dad8/30/l?primer=f592e0a4b9356877842506ce344308576437e4f677d7c9b78ca2162e6cad991a&fvd=n7&v=3")
+    format("woff2");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@theme {
+  --font-sans: "adobe-clean", sans-serif;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+  overflow: hidden;
+  font-family: "adobe-clean", sans-serif;
+}
